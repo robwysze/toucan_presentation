@@ -5,7 +5,7 @@
 SSH:<br />
 <code>git clone git@github.com:robwysze/toucan_presentation.git</code><br/>
 HTTPS:<br />
-<code>git clone --branch https://github.com/robwysze/toucan_presentation.git</code>
+<code>git clone https://github.com/robwysze/toucan_presentation.git</code>
 
 1. __Conda__:
 
