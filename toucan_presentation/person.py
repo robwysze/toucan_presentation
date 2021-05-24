@@ -12,3 +12,6 @@ class Person:
     def introduce(self):
         res = f"I'm {self.name}.\nI'm {self.age}."
         return res
+
+    def say_my_name(self):
+        return f"Hi, {self.name}"
