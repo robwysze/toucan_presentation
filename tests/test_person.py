@@ -17,4 +17,5 @@ def test_introduce():
 
 
 def test_true():
-    assert True
+    person = True
+    assert True == person
