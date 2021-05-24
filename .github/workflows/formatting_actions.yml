@@ -2,13 +2,8 @@ name: Check Formatting
 
 on:
   push:
-    branches:
-      - main
-      - develop
   pull_request:
-    branches:
-      - main
-      - develop
+    - main
 
 jobs:
   build:
