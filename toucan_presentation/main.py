@@ -7,5 +7,5 @@ def main():
     print(quot)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
