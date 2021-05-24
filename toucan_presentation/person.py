@@ -13,5 +13,6 @@ class Person:
         res = f"I'm {self.name}.\nI'm {self.age}."
         return res
 
-    def say_my_name(self):
+    def say_my_name(self, name):
+        self.name = name
         return f"Hi, {self.name}"
