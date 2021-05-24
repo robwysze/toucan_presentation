@@ -5,7 +5,7 @@ from toucan_presentation.person import Person
 def test_init_values():
     person = Person(name="Adam", age=21)
     assert person.name == "Adam"
-    assert person.age == 21
+    assert person.age == 222
 
 
 def test_introduce():
@@ -14,3 +14,8 @@ def test_introduce():
     quote = f"I'm {name}.\nI'm {age}."
     person = Person(name=name, age=age)
     assert person.introduce() == quote
+
+
+def test_flake8():
+    person = True
+    assert True == person
