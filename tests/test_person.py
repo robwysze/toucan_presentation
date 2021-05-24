@@ -14,3 +14,6 @@ def test_introduce():
     quote = f"I'm {name}.\nI'm {age}."
     person = Person(name=name, age=age)
     assert person.introduce() == quote
+
+def test_true():
+    assert True
