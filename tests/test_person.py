@@ -15,5 +15,6 @@ def test_introduce():
     person = Person(name=name, age=age)
     assert person.introduce() == quote
 
+
 def test_true():
     assert True
