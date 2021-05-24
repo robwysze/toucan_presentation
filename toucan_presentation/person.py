@@ -15,4 +15,4 @@ class Person:
 
     def say_my_name(self, name):
         self.name = name
-        return f'Hi, {self.name}'
+        return f"Hi, {self.name}"
