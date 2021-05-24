@@ -19,3 +19,8 @@ def test_introduce():
 def test_flake8():
     person = True
     assert True == person
+
+
+def test_new_person():
+    value = 2
+    assert 0 != value
